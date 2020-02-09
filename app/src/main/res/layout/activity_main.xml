@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/arknights1"
+
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingVertical="10dp"
+                android:text="Arknights"
+                android:textAlignment="center"
+                android:textSize="14pt"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingHorizontal="35dp"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5px"
+                    android:text="      Arknights dikembangkan oleh Hypergryph dan telah dirilis resmi pada 30 April 2019 untuk ios dan pada 1 Mei 2019 untuk Android di regional Tiongkok. Arknights adalah mobile game RPG Strategis dengan tema fantasi, game ini mempunyai visual dengan grafik menakjubkan, antarmuka yang ramah pengguna, variasi karakter yang mempunyai grup masing-masing, pengalaman permainan imersif dan cerita yang berkelanjutan. Pemain akan berperan sebagai “Doktor” yang diselamatkan oleh Amiya dan mengalami hilang ingatan, bersama Amiya Doktor akan melakukan pertualangan dengan aktifitas bersama organisasi bernama Rhodes Island." />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gameplay" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5px"
+                    android:text="      Pemain akan berjuang di dunia yang dipenuhi kekacauan dan bertemu dengan berbagai macam karakter. Ketika dunia mulai hancur, orang bereaksi berbeda-beda ketika menghadapi masa depan tidak pasti, sebagian memutuskan untuk mati sendirian, sebagian berjuang untuk hidup, sebagian mencari cahaya, sebagian berdiri tegak dan bertarung di garis depan, tidak ada yang benar maupun salah hanya sudut pandang dari posisi yang berbeda." />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/arknights3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5px"
+                    android:text="      Lebih lanjut lagi, semua karakter terbagi di berbagai macam classes dengan kemampuan masing-masing. Pemain akan mengkombinasikan berbagai macam karakter menjadi formasi sempurna tergantung akan skill, cost dan atribut. Cerita lebih lanjut mengenai hilang ingatan dan mengenai karakter-karter yang lain akan akan diungkapkan secara berbarengan selama permainan." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Sumber : http://jurnalotaku.com/2020/01/08/versi-global-arknights-akan-rilis-secara-publik-pada-16-januari/" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
